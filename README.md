@@ -12,17 +12,6 @@ robot_test:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Run Robot Framework API Tests
-      uses: yanaphat-toon/robotframework-request@v1.0.0
+      uses: Toon-Yanaphat/robotframework-request@v1.0.0
       with:
-        test-path: "tests/"
 ```
-
-## Inputs
-
-| Input      | Description                             | Required | Default |
-|------------|-----------------------------------------|----------|---------|
-| test-path  | Folder or file containing test cases    | true     | -       |
-
-## Outputs
-
-_None_
